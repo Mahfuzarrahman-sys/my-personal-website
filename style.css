@@ -34,3 +34,16 @@ section{
     color: white;
     font-weight: 700;
 }
+.biography-banner{
+    background-repeat: no-repeat;
+    background-image: url("image/biography-bg.png");
+}
+.quarter-width{
+    width: 5%;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+.letest-banner{
+    background-repeat: no-repeat;
+    background-image: url("image/latest-work-bg.png");
+}
