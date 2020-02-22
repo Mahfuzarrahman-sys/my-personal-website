@@ -8,6 +8,19 @@ h1{
 .name{
     color: orangered;
 }
+section{
+    height: 800px;
+    border: 5px;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -18,60 +31,32 @@ h1{
 width: 100%;
 }
 .top-banner{
- 
-    background-repeat: no-repeat;
     background-image: url("image/header-bg.png");
-    background-position: left;
-}
-section{
-    height: 600px;
-}
-.link-button{
-    text-decoration: none;
-    background-color: orangered;
-    background-image: linear-gradient(90deg, lightSalmon,  tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+    background-repeat: no-repeat;
 }
 .biography-banner{
+    background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
-    background-image: url("image/biography-bg.png");
+
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2px;
-  }
-  .column {
-    padding: 0 8px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column {
-    float: left;
-    width: 25%;
-  }
-    
-  .column img {
-    margin-top: 8px;
-    
-    width: 100%;
-  
 .letest-banner{
     background-repeat: no-repeat;
     background-image: url("image/latest-work-bg.png");
+}
+#job{
+    text-align: center;
+    
+    width: 100%;
+}
+.image{
+    height: 50%;
+    width: 30%;
 }
 .footer-banner{
     background-image: url(image/footer-bg.png);
     background-repeat: no-repeat;
 }
-div.text-align{
+    .text-align{
     text-align: center;
 }
