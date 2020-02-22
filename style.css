@@ -21,6 +21,7 @@ width: 100%;
  
     background-repeat: no-repeat;
     background-image: url("image/header-bg.png");
+    background-position: left;
 }
 section{
     height: 600px;
@@ -43,7 +44,14 @@ section{
     margin-right: 2%;
     padding-left: 2%;
 }
+.quarter-width{
+    width: 100%;
+}
 .letest-banner{
     background-repeat: no-repeat;
     background-image: url("image/latest-work-bg.png");
+}
+.footer-banner{
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
 }
