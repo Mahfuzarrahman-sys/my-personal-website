@@ -9,8 +9,8 @@ h1{
     color: orangered;
 }
 section{
-    height: 800px;
-    border: 5px;
+    height: 700px;
+    border: 2px;
     
 }
 .link-button{
@@ -50,13 +50,37 @@ width: 100%;
     width: 100%;
 }
 .image{
-    height: 50%;
+    float: left;
     width: 30%;
+    padding: 2px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+#hight{
+    height: 700px;
+    width: 100%;
+    margin-left: 10%;
 }
 .footer-banner{
     background-image: url(image/footer-bg.png);
     background-repeat: no-repeat;
 }
     .text-align{
+    text-align: center;
+}
+.centre{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 50%;
+    text-align: center;
+}
+footer p{
     text-align: center;
 }
